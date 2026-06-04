@@ -26,14 +26,31 @@ This project aims to simplify access to government services through an intellige
 * Conversational AI interface
 * RAG-based knowledge retrieval
 
-## Proposed Technologies
+## Tech Stack
 
-* Frontend: React
-* Backend: Node.js, Express.js
-* Database: MongoDB
-* AI Framework: LangGraph
-* Vector Database: FAISS / ChromaDB
-* LLM: Groq / OpenAI Compatible Models
+### Frontend
+- React.js
+- Tailwind CSS
+
+### Backend
+- Python
+- FastAPI
+
+### Database
+- MongoDB / Supabase
+
+### AI & Agent Framework
+- LangGraph
+- LangChain
+
+### Vector Database
+- ChromaDB
+
+### Large Language Model (LLM)
+- Groq API
+
+### Additional Tools
+- Sentence Transformers (Embeddings)
 
 ## Project Goals
 
