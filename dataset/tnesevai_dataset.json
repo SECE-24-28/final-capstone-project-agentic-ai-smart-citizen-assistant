@@ -1,0 +1,866 @@
+{
+  "meta": {
+    "source": "Tamil Nadu eSevai Portal (tnesevai.tn.gov.in)",
+    "user_manual_page": "https://tnesevai.tn.gov.in/Pages/UserManual.aspx",
+    "service_list_page": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+    "citizen_portal": "https://www.tnesevai.tn.gov.in/citizen/",
+    "total_services": 119,
+    "helpdesk_email": "tnesevaihelpdesk@tn.gov.in",
+    "toll_free": "18004256000",
+    "description": "TNeSevai AI Agent Training Dataset — structured Q&A and service info for 119+ government services"
+  },
+  "services": [
+    {
+      "service_id": "REV-101",
+      "service_name": "Community Certificate",
+      "department": "Revenue Department",
+      "category": "Revenue",
+      "description": "Certifies the caste/community of a citizen. Required for educational admissions, scholarships, government jobs, and reservations.",
+      "eligibility": "All permanent residents of Tamil Nadu belonging to SC/ST/OBC/MBC communities",
+      "fee": "Rs. 60",
+      "processing_time": "7 working days",
+      "validity": "Lifetime (for most purposes); some institutions may require fresh certificate",
+      "where_to_apply": "Nearest eSevai centre or online at tnesevai.tn.gov.in",
+      "documents_required": [
+        "Aadhaar Card (original + photocopy)",
+        "Ration Card",
+        "School Transfer Certificate or SSLC Certificate",
+        "Father's Community Certificate (if available)",
+        "Nativity Certificate",
+        "Passport size photo (2 copies)"
+      ],
+      "application_steps": [
+        "Visit nearest eSevai centre with all documents",
+        "Operator fills REV-101 form with your details",
+        "Pay service charge of Rs. 60",
+        "Collect acknowledgement receipt with reference number",
+        "Certificate issued by Tahsildar within 7 working days",
+        "Download/collect certificate from eSevai centre or portal"
+      ],
+      "output": "Community Certificate issued by Tahsildar",
+      "user_manual_pdf": "https://www.tnesevai.tn.gov.in/Pages/PPT/UserManual_eSevai_for_all_Registration.pdf",
+      "service_url": "https://www.tnesevai.tn.gov.in/citizen/Pages/ServiceList.aspx",
+      "qa_pairs": [
+        {
+          "question": "What is a Community Certificate?",
+          "answer": "A Community Certificate certifies the caste or community (SC/ST/OBC/MBC) of a citizen. It is issued by the Tahsildar and is required for educational admissions, scholarships, government job applications, and reservation benefits."
+        },
+        {
+          "question": "What documents are required for Community Certificate?",
+          "answer": "You need: Aadhaar Card (original + photocopy), Ration Card, School Transfer Certificate or SSLC Certificate, Father's Community Certificate (if available), Nativity Certificate, and 2 passport size photos."
+        },
+        {
+          "question": "How long does Community Certificate take?",
+          "answer": "Community Certificate is processed within 7 working days from the date of application."
+        },
+        {
+          "question": "What is the fee for Community Certificate?",
+          "answer": "The service charge for Community Certificate is Rs. 60 at the eSevai centre."
+        },
+        {
+          "question": "Where can I apply for Community Certificate?",
+          "answer": "You can apply at any nearest eSevai centre across Tamil Nadu, or online through the citizen portal at tnesevai.tn.gov.in."
+        },
+        {
+          "question": "Who can apply for Community Certificate?",
+          "answer": "All permanent residents of Tamil Nadu belonging to SC, ST, OBC, or MBC communities can apply for a Community Certificate."
+        },
+        {
+          "question": "How do I apply for Community Certificate step by step?",
+          "answer": "1. Visit nearest eSevai centre with all documents. 2. The operator fills REV-101 form. 3. Pay Rs. 60 service charge. 4. Collect acknowledgement receipt. 5. Certificate is issued within 7 working days by Tahsildar. 6. Collect/download from eSevai centre or portal."
+        },
+        {
+          "question": "Is Community Certificate permanent?",
+          "answer": "Yes, Community Certificate is generally valid for a lifetime. However, some institutions may require a freshly issued certificate."
+        }
+      ]
+    },
+    {
+      "service_id": "REV-102",
+      "service_name": "Income Certificate",
+      "department": "Revenue Department",
+      "category": "Revenue",
+      "description": "Certifies the annual income of a citizen or family. Required for scholarships, fee concessions, government schemes, and loans.",
+      "eligibility": "All permanent residents of Tamil Nadu",
+      "fee": "Rs. 60",
+      "processing_time": "7 working days",
+      "validity": "6 months from date of issue (for most schemes); 3 months for some",
+      "where_to_apply": "Nearest eSevai centre or online at tnesevai.tn.gov.in",
+      "documents_required": [
+        "Aadhaar Card (original + photocopy)",
+        "Ration Card",
+        "Address proof (any one: Voter ID / Driving License / Utility bill)",
+        "Salary slip or employer certificate (for salaried persons)",
+        "Declaration/Affidavit for income (for self-employed)",
+        "Passport size photo (2 copies)"
+      ],
+      "application_steps": [
+        "Visit nearest eSevai centre with documents",
+        "Operator fills REV-102 form",
+        "Pay Rs. 60 service charge",
+        "Collect acknowledgement with reference number",
+        "Certificate issued by Tahsildar within 7 working days",
+        "Collect from eSevai centre or download from portal"
+      ],
+      "output": "Income Certificate issued by Tahsildar",
+      "user_manual_pdf": "https://www.tnesevai.tn.gov.in/Pages/PPT/UserManual_eSevai_for_all_Registration.pdf",
+      "service_url": "https://www.tnesevai.tn.gov.in/citizen/Pages/ServiceList.aspx",
+      "qa_pairs": [
+        {
+          "question": "What is an Income Certificate?",
+          "answer": "An Income Certificate is an official document that certifies the annual income of a citizen or their family. It is issued by the Tahsildar and is used for scholarships, fee concessions, government schemes, bank loans, and other benefits."
+        },
+        {
+          "question": "What documents are needed for Income Certificate?",
+          "answer": "You need: Aadhaar Card, Ration Card, Address proof (Voter ID/Driving License/utility bill), salary slip or employer certificate (if salaried), or an income declaration affidavit (if self-employed), and 2 passport size photos."
+        },
+        {
+          "question": "How much does Income Certificate cost?",
+          "answer": "The service fee for Income Certificate is Rs. 60 at any eSevai centre."
+        },
+        {
+          "question": "How long is an Income Certificate valid?",
+          "answer": "Income Certificate is typically valid for 6 months from the date of issue. Some schemes may accept it for only 3 months. Check with the institution you are submitting it to."
+        },
+        {
+          "question": "How many days does it take to get Income Certificate?",
+          "answer": "Income Certificate is processed and issued within 7 working days from the date of application at the eSevai centre."
+        }
+      ]
+    },
+    {
+      "service_id": "REV-103",
+      "service_name": "Nativity Certificate",
+      "department": "Revenue Department",
+      "category": "Revenue",
+      "description": "Certifies that a person is a native of Tamil Nadu. Required for educational admissions, government jobs, and state-level reservations.",
+      "eligibility": "Citizens born in Tamil Nadu or permanently residing in Tamil Nadu",
+      "fee": "Rs. 60",
+      "processing_time": "7 working days",
+      "validity": "Lifetime",
+      "where_to_apply": "Nearest eSevai centre or online at tnesevai.tn.gov.in",
+      "documents_required": [
+        "Aadhaar Card",
+        "Ration Card",
+        "Birth Certificate",
+        "School Study Certificate (showing study in Tamil Nadu for minimum years)",
+        "Address proof",
+        "Passport size photo (2 copies)"
+      ],
+      "application_steps": [
+        "Visit nearest eSevai centre",
+        "Operator fills REV-103 application",
+        "Pay Rs. 60",
+        "Collect acknowledgement",
+        "Certificate issued within 7 working days",
+        "Collect from eSevai centre"
+      ],
+      "output": "Nativity Certificate issued by Tahsildar",
+      "user_manual_pdf": "https://www.tnesevai.tn.gov.in/Pages/PPT/UserManual_eSevai_for_all_Registration.pdf",
+      "service_url": "https://www.tnesevai.tn.gov.in/citizen/Pages/ServiceList.aspx",
+      "qa_pairs": [
+        {
+          "question": "What is a Nativity Certificate?",
+          "answer": "A Nativity Certificate proves that you are a native of Tamil Nadu. It is needed for state-quota admissions in colleges, government job applications, and other state-level benefits."
+        },
+        {
+          "question": "What documents are needed for Nativity Certificate?",
+          "answer": "You need: Aadhaar Card, Ration Card, Birth Certificate, School Study Certificate (proving study in Tamil Nadu), Address proof, and 2 passport photos."
+        },
+        {
+          "question": "Is Nativity Certificate the same as Domicile Certificate?",
+          "answer": "Yes, Nativity Certificate in Tamil Nadu serves the same purpose as a Domicile Certificate. It certifies that you are a native/permanent resident of Tamil Nadu."
+        },
+        {
+          "question": "How much is the fee for Nativity Certificate?",
+          "answer": "The fee is Rs. 60 at any eSevai centre."
+        },
+        {
+          "question": "How long does Nativity Certificate last?",
+          "answer": "Nativity Certificate is valid for a lifetime."
+        }
+      ]
+    },
+    {
+      "service_id": "REV-105",
+      "service_name": "Residence Certificate",
+      "department": "Revenue Department",
+      "category": "Revenue",
+      "description": "Certifies the permanent address/residence of a citizen in Tamil Nadu.",
+      "eligibility": "All residents of Tamil Nadu",
+      "fee": "Rs. 60",
+      "processing_time": "7 working days",
+      "validity": "6 months",
+      "where_to_apply": "Nearest eSevai centre",
+      "documents_required": [
+        "Aadhaar Card",
+        "Ration Card",
+        "Utility bills (electricity/water/phone)",
+        "Voter ID",
+        "Passport size photo"
+      ],
+      "application_steps": [
+        "Visit eSevai centre",
+        "Submit documents and fill form",
+        "Pay Rs. 60",
+        "Receive certificate in 7 days"
+      ],
+      "output": "Residence Certificate issued by Tahsildar",
+      "user_manual_pdf": "https://www.tnesevai.tn.gov.in/Pages/PPT/UserManual_eSevai_for_all_Registration.pdf",
+      "service_url": "https://www.tnesevai.tn.gov.in/citizen/Pages/ServiceList.aspx",
+      "qa_pairs": [
+        {
+          "question": "What is a Residence Certificate?",
+          "answer": "A Residence Certificate is an official document certifying that you permanently reside at a particular address in Tamil Nadu. It is issued by the Tahsildar."
+        },
+        {
+          "question": "What documents do I need for Residence Certificate?",
+          "answer": "You need Aadhaar Card, Ration Card, utility bills (electricity/water/phone), Voter ID, and a passport size photo."
+        },
+        {
+          "question": "How long is Residence Certificate valid?",
+          "answer": "Residence Certificate is valid for 6 months from the date of issue."
+        }
+      ]
+    },
+    {
+      "service_id": "REV-106",
+      "service_name": "Legal Heir Certificate",
+      "department": "Revenue Department",
+      "category": "Revenue",
+      "description": "Issued when a family member dies, identifying the legal heirs. Required for transferring property, pension, bank account, electricity connection, etc.",
+      "eligibility": "Surviving family members (spouse, children, parents) of the deceased person",
+      "fee": "Rs. 60",
+      "processing_time": "30 days",
+      "validity": "As required (no expiry)",
+      "where_to_apply": "Nearest eSevai centre (REV-114)",
+      "documents_required": [
+        "Death Certificate of the deceased",
+        "Aadhaar Card of applicant",
+        "Ration Card showing family members",
+        "Address proof of deceased",
+        "Marriage Registration Certificate or Passport or Voter ID (to prove relationship)",
+        "Affidavit from all legal heirs",
+        "Passport size photos of all legal heirs"
+      ],
+      "application_steps": [
+        "Visit eSevai centre with all documents",
+        "Fill REV-114 Legal Heir Certificate application",
+        "Submit Death Certificate and relationship proof",
+        "Pay Rs. 60",
+        "Collect acknowledgement",
+        "Revenue Inspector conducts field enquiry",
+        "Certificate issued by Tahsildar within 30 days"
+      ],
+      "output": "Legal Heir Certificate issued by Tahsildar",
+      "user_manual_pdf": "https://www.tnesevai.tn.gov.in/Pages/PPT/UserManual_eSevai_for_all_Registration.pdf",
+      "service_url": "https://www.tnesevai.tn.gov.in/citizen/Pages/ServiceList.aspx",
+      "qa_pairs": [
+        {
+          "question": "What is a Legal Heir Certificate?",
+          "answer": "A Legal Heir Certificate identifies the surviving legal heirs of a deceased person. It is needed to transfer electricity connection, property, bank account, telephone connection, or to get patta transfer and family pension for government employees."
+        },
+        {
+          "question": "What documents are needed for Legal Heir Certificate?",
+          "answer": "You need: Death Certificate of the deceased, Aadhaar Card of the applicant, Ration Card showing all family members, address proof of the deceased, Marriage Certificate or Passport or Voter ID to prove relationship, Affidavit from all legal heirs, and passport photos of all heirs."
+        },
+        {
+          "question": "How long does Legal Heir Certificate take?",
+          "answer": "Legal Heir Certificate takes up to 30 days because a Revenue Inspector conducts a field enquiry to verify the heirs before the Tahsildar issues the certificate."
+        },
+        {
+          "question": "Why do I need a Legal Heir Certificate?",
+          "answer": "You need a Legal Heir Certificate to transfer electricity connection, bank accounts, property/patta, telephone connections, to claim life insurance, to apply for family pension if the deceased was a government employee, or for bank loan settlements."
+        },
+        {
+          "question": "Who can apply for Legal Heir Certificate?",
+          "answer": "The spouse, children, parents, or other direct family members of the deceased can apply for a Legal Heir Certificate."
+        }
+      ]
+    },
+    {
+      "service_id": "REV-107",
+      "service_name": "First Graduate Certificate",
+      "department": "Revenue Department",
+      "category": "Revenue",
+      "description": "Certifies that the applicant is the first graduate in their family. Required for special scholarships and reservations for first-generation graduates.",
+      "eligibility": "Students who are the first graduate in their family (no parent, grandparent, or sibling with a degree)",
+      "fee": "Rs. 60",
+      "processing_time": "7 working days",
+      "validity": "Lifetime",
+      "where_to_apply": "Nearest eSevai centre",
+      "documents_required": [
+        "Aadhaar Card",
+        "Ration Card",
+        "School Study Certificate",
+        "Declaration that no parent/grandparent has a degree",
+        "Community Certificate",
+        "Passport size photo"
+      ],
+      "application_steps": [
+        "Visit eSevai centre",
+        "Fill First Graduate application form",
+        "Submit declaration and supporting documents",
+        "Pay Rs. 60",
+        "Certificate issued within 7 working days"
+      ],
+      "output": "First Graduate Certificate issued by Tahsildar",
+      "user_manual_pdf": "https://www.tnesevai.tn.gov.in/Pages/PPT/UserManual_eSevai_for_all_Registration.pdf",
+      "service_url": "https://www.tnesevai.tn.gov.in/citizen/Pages/ServiceList.aspx",
+      "qa_pairs": [
+        {
+          "question": "What is a First Graduate Certificate?",
+          "answer": "A First Graduate Certificate is issued to a student who is the first person in their family to pursue a college degree. It is required for first-generation graduate scholarships and special reservations."
+        },
+        {
+          "question": "Who is eligible for First Graduate Certificate?",
+          "answer": "Students whose parents, grandparents, and siblings have not obtained any degree (graduation) are eligible for the First Graduate Certificate."
+        },
+        {
+          "question": "What documents are needed for First Graduate Certificate?",
+          "answer": "You need: Aadhaar Card, Ration Card, School Study Certificate, a declaration stating no parent/grandparent has a degree, Community Certificate, and passport size photo."
+        }
+      ]
+    },
+    {
+      "service_id": "REV-108",
+      "service_name": "OBC Certificate (Other Backward Class)",
+      "department": "Revenue Department",
+      "category": "Revenue",
+      "description": "Certifies that the applicant belongs to the Other Backward Classes. Required for central government reservations, scholarships, and admissions under OBC quota.",
+      "eligibility": "Citizens belonging to OBC communities as per central government list",
+      "fee": "Rs. 60",
+      "processing_time": "7 working days",
+      "validity": "1 year",
+      "where_to_apply": "Nearest eSevai centre",
+      "documents_required": [
+        "Aadhaar Card",
+        "Ration Card",
+        "Community Certificate (State)",
+        "School Certificate",
+        "Address proof",
+        "Passport size photo"
+      ],
+      "application_steps": [
+        "Visit eSevai centre",
+        "Submit OBC application with documents",
+        "Pay Rs. 60",
+        "Receive OBC Certificate in 7 working days"
+      ],
+      "output": "OBC Certificate for Central Government purposes",
+      "user_manual_pdf": "https://www.tnesevai.tn.gov.in/Pages/PPT/UserManual_eSevai_for_all_Registration.pdf",
+      "service_url": "https://www.tnesevai.tn.gov.in/citizen/Pages/ServiceList.aspx",
+      "qa_pairs": [
+        {
+          "question": "What is an OBC Certificate?",
+          "answer": "An OBC (Other Backward Class) Certificate certifies that you belong to the OBC category as per the central government list. It is needed for central government job reservations, central university admissions under OBC quota, and central government scholarships."
+        },
+        {
+          "question": "What is the difference between OBC certificate and Community Certificate?",
+          "answer": "Community Certificate is issued for state-level reservations (state jobs, state college admissions). OBC Certificate is specifically for central government reservations and central university admissions. Both are issued from eSevai centres but serve different purposes."
+        },
+        {
+          "question": "How long is OBC Certificate valid?",
+          "answer": "OBC Certificate is valid for 1 year from the date of issue."
+        }
+      ]
+    },
+    {
+      "service_id": "REV-109",
+      "service_name": "Deserted Women Certificate",
+      "department": "Revenue Department",
+      "category": "Revenue",
+      "description": "Certificate issued to women who have been abandoned/deserted by their husband. Required for special government schemes, pension, and welfare benefits for deserted women.",
+      "eligibility": "Women who have been deserted/abandoned by their husband",
+      "fee": "Rs. 60",
+      "processing_time": "30 days",
+      "validity": "As required",
+      "where_to_apply": "Nearest eSevai centre",
+      "documents_required": [
+        "Aadhaar Card",
+        "Ration Card",
+        "Marriage Certificate",
+        "Proof of desertion (FIR or complaint copy, if any)",
+        "Address proof",
+        "Passport size photo",
+        "Affidavit of desertion"
+      ],
+      "application_steps": [
+        "Visit eSevai centre",
+        "Submit application with marriage certificate and desertion proof",
+        "Revenue Inspector verifies",
+        "Certificate issued by Tahsildar"
+      ],
+      "output": "Deserted Women Certificate issued by Tahsildar",
+      "user_manual_pdf": "https://www.tnesevai.tn.gov.in/Pages/PPT/UserManual_eSevai_for_all_Registration.pdf",
+      "service_url": "https://www.tnesevai.tn.gov.in/citizen/Pages/ServiceList.aspx",
+      "qa_pairs": [
+        {
+          "question": "What is a Deserted Women Certificate?",
+          "answer": "A Deserted Women Certificate is issued to women who have been abandoned by their husband. It helps them access government welfare schemes, Kalaingar Magalir Urimai Thogai pension, and other social security benefits for deserted women in Tamil Nadu."
+        },
+        {
+          "question": "What documents are needed for Deserted Women Certificate?",
+          "answer": "You need: Aadhaar Card, Ration Card, Marriage Certificate, proof of desertion (FIR or complaint if available), address proof, passport size photo, and an affidavit of desertion."
+        }
+      ]
+    },
+    {
+      "service_id": "REV-110",
+      "service_name": "Agricultural Income Certificate",
+      "department": "Revenue Department",
+      "category": "Revenue",
+      "description": "Certifies the income earned from agricultural activities. Required for agricultural loans, subsidies, and farmer welfare schemes.",
+      "eligibility": "Farmers/agriculturalists owning or cultivating land in Tamil Nadu",
+      "fee": "Rs. 60",
+      "processing_time": "7 working days",
+      "validity": "6 months",
+      "where_to_apply": "Nearest eSevai centre",
+      "documents_required": [
+        "Aadhaar Card",
+        "Patta/Chitta (land ownership document)",
+        "Adangal (land cultivation record)",
+        "Ration Card",
+        "Address proof"
+      ],
+      "application_steps": [
+        "Visit eSevai centre with Patta and Adangal",
+        "Fill application for Agricultural Income Certificate",
+        "Pay Rs. 60",
+        "Certificate issued in 7 working days"
+      ],
+      "output": "Agricultural Income Certificate",
+      "user_manual_pdf": "https://www.tnesevai.tn.gov.in/Pages/PPT/UserManual_eSevai_for_all_Registration.pdf",
+      "service_url": "https://www.tnesevai.tn.gov.in/citizen/Pages/ServiceList.aspx",
+      "qa_pairs": [
+        {
+          "question": "What is an Agricultural Income Certificate?",
+          "answer": "An Agricultural Income Certificate certifies the income earned from farming activities. It is required for agricultural loans from banks, government subsidies, and farmer welfare scheme benefits."
+        },
+        {
+          "question": "What documents are needed for Agricultural Income Certificate?",
+          "answer": "You need: Aadhaar Card, Patta or Chitta (land ownership documents), Adangal (cultivation records), Ration Card, and address proof."
+        }
+      ]
+    },
+    {
+      "service_id": "REV-111",
+      "service_name": "Inter-Caste Marriage Certificate",
+      "department": "Revenue Department",
+      "category": "Revenue",
+      "description": "Certificate issued to couples where the husband and wife belong to different castes/communities. Required to avail inter-caste marriage incentive schemes.",
+      "eligibility": "Married couples where partners belong to different castes, one being SC/ST",
+      "fee": "Rs. 60",
+      "processing_time": "30 days",
+      "validity": "Permanent",
+      "where_to_apply": "Nearest eSevai centre",
+      "documents_required": [
+        "Marriage Certificate (registered)",
+        "Community Certificate of husband",
+        "Community Certificate of wife",
+        "Aadhaar Cards of both",
+        "Joint passport size photo",
+        "Ration Card"
+      ],
+      "application_steps": [
+        "Visit eSevai centre together as a couple",
+        "Submit registered marriage certificate and community certificates",
+        "Pay Rs. 60",
+        "Revenue Inspector verifies",
+        "Certificate issued by Tahsildar"
+      ],
+      "output": "Inter-Caste Marriage Certificate",
+      "user_manual_pdf": "https://www.tnesevai.tn.gov.in/Pages/PPT/UserManual_eSevai_for_all_Registration.pdf",
+      "service_url": "https://www.tnesevai.tn.gov.in/citizen/Pages/ServiceList.aspx",
+      "qa_pairs": [
+        {
+          "question": "What is an Inter-Caste Marriage Certificate?",
+          "answer": "An Inter-Caste Marriage Certificate is issued to couples who have married across different castes, particularly where one partner belongs to SC/ST. It is required to claim the government's inter-caste marriage incentive grant."
+        },
+        {
+          "question": "What documents are needed for Inter-Caste Marriage Certificate?",
+          "answer": "You need: Registered Marriage Certificate, Community Certificate of both husband and wife, Aadhaar Cards of both, a joint passport size photo, and Ration Card."
+        }
+      ]
+    },
+    {
+      "service_id": "REV-114",
+      "service_name": "Solvency Certificate",
+      "department": "Revenue Department",
+      "category": "Revenue",
+      "description": "Certifies the financial worth/assets of a person. Required for tenders, government contracts, and court proceedings.",
+      "eligibility": "Property owners in Tamil Nadu",
+      "fee": "Rs. 100",
+      "processing_time": "30 days",
+      "validity": "6 months",
+      "where_to_apply": "Nearest eSevai centre",
+      "documents_required": [
+        "Aadhaar Card",
+        "Patta/Chitta documents",
+        "Property tax receipt",
+        "Bank passbook",
+        "Address proof"
+      ],
+      "application_steps": [
+        "Visit eSevai centre",
+        "Submit property documents and bank details",
+        "Pay Rs. 100",
+        "Revenue Inspector conducts field inspection",
+        "Solvency Certificate issued by Tahsildar within 30 days"
+      ],
+      "output": "Solvency Certificate issued by Tahsildar",
+      "user_manual_pdf": "https://www.tnesevai.tn.gov.in/Pages/PPT/UserManual_eSevai_for_all_Registration.pdf",
+      "service_url": "https://www.tnesevai.tn.gov.in/citizen/Pages/ServiceList.aspx",
+      "qa_pairs": [
+        {
+          "question": "What is a Solvency Certificate?",
+          "answer": "A Solvency Certificate is an official document certifying the financial worth and assets of a person. It is required for government tenders, court surety bonds, and contract applications."
+        },
+        {
+          "question": "What documents are needed for Solvency Certificate?",
+          "answer": "You need: Aadhaar Card, Patta/Chitta land documents, property tax receipt, bank passbook, and address proof."
+        },
+        {
+          "question": "How long does a Solvency Certificate take?",
+          "answer": "Solvency Certificate takes up to 30 days as the Revenue Inspector needs to conduct a physical inspection of the property."
+        }
+      ]
+    },
+    {
+      "service_id": "TNEB-001",
+      "service_name": "TNEB New Electricity Connection",
+      "department": "Tamil Nadu Electricity Board (TNEB/TANGEDCO)",
+      "category": "Electricity",
+      "description": "Apply for a new domestic or commercial electricity connection.",
+      "eligibility": "Property owners or tenants (with owner's consent) in Tamil Nadu",
+      "fee": "Rs. 500 - Rs. 2000 (varies by load and category)",
+      "processing_time": "15-30 working days",
+      "validity": "Permanent (connection)",
+      "where_to_apply": "Nearest eSevai centre",
+      "documents_required": [
+        "Aadhaar Card",
+        "Patta/Sale deed / Rent agreement",
+        "Building plan approval",
+        "No objection certificate from owner (if tenant)",
+        "Passport size photo"
+      ],
+      "application_steps": [
+        "Visit eSevai centre",
+        "Fill new electricity connection application",
+        "Submit property ownership/tenancy documents",
+        "Pay initial deposit and service charge",
+        "TANGEDCO engineer inspects the premises",
+        "Connection established within 30 days"
+      ],
+      "output": "New electricity connection with consumer number",
+      "user_manual_pdf": "https://www.tnesevai.tn.gov.in/Pages/PPT/UserManual_eSevai_for_all_Registration.pdf",
+      "service_url": "https://www.tnesevai.tn.gov.in/citizen/Pages/ServiceList.aspx",
+      "qa_pairs": [
+        {
+          "question": "How do I apply for new electricity connection in Tamil Nadu?",
+          "answer": "Visit any eSevai centre. Bring Aadhaar Card, property documents (Patta or sale deed or rent agreement), building plan approval, and passport photo. Pay the required deposit. A TANGEDCO engineer will inspect your premises and the connection will be provided within 15-30 working days."
+        },
+        {
+          "question": "What documents are needed for new TNEB connection?",
+          "answer": "You need: Aadhaar Card, property ownership proof (Patta/sale deed) or rent agreement with NOC from owner, building plan approval, and passport size photo."
+        }
+      ]
+    },
+    {
+      "service_id": "TNEB-002",
+      "service_name": "TNEB Bill Payment",
+      "department": "Tamil Nadu Electricity Board (TNEB/TANGEDCO)",
+      "category": "Electricity",
+      "description": "Pay electricity bills at eSevai centre. No documents required, only Consumer Number.",
+      "eligibility": "Any TANGEDCO consumer",
+      "fee": "Bill amount + Rs. 10 service charge",
+      "processing_time": "Instant",
+      "validity": "N/A",
+      "where_to_apply": "Nearest eSevai centre or online",
+      "documents_required": [
+        "TNEB Consumer Number (printed on electricity bill)"
+      ],
+      "application_steps": [
+        "Visit eSevai centre",
+        "Provide Consumer Number to operator",
+        "Operator fetches bill amount",
+        "Pay bill amount + Rs. 10 service charge",
+        "Collect payment receipt"
+      ],
+      "output": "Payment receipt / transaction reference",
+      "user_manual_pdf": "https://www.tnesevai.tn.gov.in/Pages/PPT/UserManual_eSevai_for_all_Registration.pdf",
+      "service_url": "https://www.tnesevai.tn.gov.in/citizen/Pages/ServiceList.aspx",
+      "qa_pairs": [
+        {
+          "question": "Can I pay TNEB electricity bill at eSevai centre?",
+          "answer": "Yes. Just bring your TNEB Consumer Number (found on your electricity bill). The operator will fetch the bill amount. You pay the bill plus a Rs. 10 service charge and get an instant receipt."
+        },
+        {
+          "question": "What do I need to pay TNEB bill at eSevai?",
+          "answer": "You only need your TNEB Consumer Number, which is printed on your electricity bill."
+        }
+      ]
+    },
+    {
+      "service_id": "MVD-001",
+      "service_name": "Driving Licence Application (Learner's Licence)",
+      "department": "Motor Vehicles Department (MVD)",
+      "category": "Motor Vehicles",
+      "description": "Apply for a Learner's Driving Licence at eSevai centre (Sarathi integration).",
+      "eligibility": "Age 16+ for two-wheelers (with parent consent); Age 18+ for motor cars and other vehicles",
+      "fee": "Rs. 150 (Learner's Licence fee) + Rs. 60 service charge",
+      "processing_time": "Same day (if test passed) to 7 days",
+      "validity": "Learner's Licence valid for 6 months",
+      "where_to_apply": "Nearest eSevai centre (MVD services)",
+      "documents_required": [
+        "Aadhaar Card",
+        "Age proof (Birth Certificate / SSLC certificate)",
+        "Address proof",
+        "Medical certificate (Form 1A) from registered doctor",
+        "Passport size photos (4 copies)"
+      ],
+      "application_steps": [
+        "Visit eSevai centre with documents",
+        "Fill Learner's Licence application (Form 2)",
+        "Submit documents and pay fee",
+        "Appear for online computer-based test at RTO or eSevai",
+        "Learner's Licence issued on same day if test passed"
+      ],
+      "output": "Learner's Licence (physical card / printout)",
+      "user_manual_pdf": "https://www.tnesevai.tn.gov.in/Pages/PPT/UserManual_eSevai_for_all_Registration.pdf",
+      "service_url": "https://www.tnesevai.tn.gov.in/citizen/Pages/ServiceList.aspx",
+      "qa_pairs": [
+        {
+          "question": "How do I apply for Learner's Driving Licence in Tamil Nadu?",
+          "answer": "Visit any eSevai centre. Bring Aadhaar Card, age proof (SSLC/Birth Certificate), address proof, medical certificate (Form 1A), and 4 passport photos. Fill Form 2, pay Rs. 150 + Rs. 60 service charge, and take the computer-based test. If passed, Learner's Licence is issued on the same day."
+        },
+        {
+          "question": "What is the minimum age for driving licence in Tamil Nadu?",
+          "answer": "You must be at least 16 years old for two-wheelers (with parent/guardian consent) and 18 years old for motor cars and heavy vehicles."
+        },
+        {
+          "question": "How long is a Learner's Licence valid?",
+          "answer": "A Learner's Driving Licence is valid for 6 months. You must apply for a Permanent Licence within this period."
+        }
+      ]
+    },
+    {
+      "service_id": "EMPL-501",
+      "service_name": "Employment Registration",
+      "department": "Department of Employment and Training",
+      "category": "Employment",
+      "description": "Register with the Tamil Nadu Employment Exchange to be eligible for government job notifications and employment assistance.",
+      "eligibility": "Any educated unemployed citizen of Tamil Nadu aged 14 and above",
+      "fee": "Free (No charge)",
+      "processing_time": "Same day",
+      "validity": "Renewal required every 3 years",
+      "where_to_apply": "Nearest eSevai centre",
+      "documents_required": [
+        "Aadhaar Card",
+        "Educational certificates (SSLC / HSC / Degree, as applicable)",
+        "Community Certificate",
+        "Nativity Certificate",
+        "Address proof",
+        "Passport size photo (2 copies)"
+      ],
+      "application_steps": [
+        "Visit eSevai centre",
+        "Fill Employment Registration form",
+        "Submit educational and community certificates",
+        "Registration done on the same day",
+        "Receive Employment Registration Number",
+        "Renew every 3 years"
+      ],
+      "output": "Employment Registration Card/Number",
+      "user_manual_pdf": "https://www.tnesevai.tn.gov.in/Pages/PPT/User%20Manual_for%20Employment_502%20Printing%20of%20Registration%20ID.pdf",
+      "service_url": "https://www.tnesevai.tn.gov.in/citizen/Pages/ServiceList.aspx",
+      "qa_pairs": [
+        {
+          "question": "How do I register with Tamil Nadu Employment Exchange?",
+          "answer": "Visit any eSevai centre with your Aadhaar Card, educational certificates, Community Certificate, Nativity Certificate, address proof, and 2 passport photos. Registration is free and done on the same day. You receive an Employment Registration Number."
+        },
+        {
+          "question": "Is Employment Registration at eSevai free?",
+          "answer": "Yes, Employment Registration through eSevai is completely free — no service charge."
+        },
+        {
+          "question": "How often do I need to renew Employment Registration?",
+          "answer": "You need to renew your Employment Registration every 3 years to keep it active."
+        },
+        {
+          "question": "What is the minimum qualification for Employment Registration?",
+          "answer": "There is no minimum qualification. Any educated unemployed citizen of Tamil Nadu aged 14 and above can register at the Employment Exchange through eSevai."
+        }
+      ]
+    },
+    {
+      "service_id": "SOC-001",
+      "service_name": "Old Age Pension (IGNOPS)",
+      "department": "Social Welfare Department / Revenue",
+      "category": "Social Welfare",
+      "description": "Indira Gandhi National Old Age Pension Scheme. Monthly pension for elderly citizens below poverty line.",
+      "eligibility": "Age 60 and above, BPL (Below Poverty Line) family, not receiving any other government pension",
+      "fee": "Free",
+      "processing_time": "30-60 days (after field verification)",
+      "validity": "Ongoing (annual renewal/verification)",
+      "where_to_apply": "Nearest eSevai centre",
+      "documents_required": [
+        "Aadhaar Card",
+        "Age proof (Birth Certificate or SSLC or voter ID with age)",
+        "BPL Ration Card",
+        "Bank passbook (nationalized bank)",
+        "Income Certificate",
+        "Passport size photo"
+      ],
+      "application_steps": [
+        "Visit eSevai centre",
+        "Fill IGNOPS application form",
+        "Submit age proof and BPL ration card",
+        "Revenue Inspector conducts field enquiry",
+        "Pension approved and credited to bank account monthly"
+      ],
+      "output": "Old Age Pension (Rs. 1000+ per month credited to bank account)",
+      "user_manual_pdf": "https://tnesevai.tn.gov.in/PPT/User%20Manual(CSCOperator)_REV-201%20Indira%20Gandhi%20National%20Old%20Age%20Pension%20Scheme%20(IGNOPS).pdf",
+      "service_url": "https://www.tnesevai.tn.gov.in/citizen/Pages/ServiceList.aspx",
+      "qa_pairs": [
+        {
+          "question": "What is IGNOPS?",
+          "answer": "IGNOPS stands for Indira Gandhi National Old Age Pension Scheme. It provides a monthly pension to elderly citizens aged 60 and above who belong to Below Poverty Line (BPL) families and do not receive any other government pension."
+        },
+        {
+          "question": "Who is eligible for Old Age Pension in Tamil Nadu?",
+          "answer": "You must be 60 years or older, belong to a BPL (Below Poverty Line) family, and must not be receiving any other government pension. You apply through the eSevai centre."
+        },
+        {
+          "question": "What documents are needed for Old Age Pension?",
+          "answer": "You need: Aadhaar Card, age proof (Birth Certificate/SSLC/Voter ID with age), BPL Ration Card, nationalized bank passbook, Income Certificate, and passport size photo."
+        },
+        {
+          "question": "How much is the Old Age Pension amount?",
+          "answer": "The Old Age Pension under IGNOPS is Rs. 1000 or more per month, credited directly to the beneficiary's bank account."
+        }
+      ]
+    },
+    {
+      "service_id": "GEN-001",
+      "service_name": "How to Apply at eSevai Centre (General Guide)",
+      "department": "TNeGA (Tamil Nadu e-Governance Agency)",
+      "category": "General",
+      "description": "General guide on how to use an eSevai centre to apply for any government service.",
+      "eligibility": "All citizens of Tamil Nadu",
+      "fee": "Varies by service (Rs. 60 for most Revenue certificates)",
+      "processing_time": "Varies by service",
+      "validity": "N/A",
+      "where_to_apply": "Any of 10,443 eSevai centres across Tamil Nadu",
+      "documents_required": [
+        "Aadhaar Card (mandatory for most services)",
+        "Ration Card",
+        "Service-specific documents"
+      ],
+      "application_steps": [
+        "Locate nearest eSevai centre",
+        "Carry Aadhaar Card and relevant documents",
+        "Tell the operator which service you need",
+        "Operator fills the form on your behalf",
+        "Pay the service charge",
+        "Collect acknowledgement/receipt with reference number",
+        "Track application status online or at centre",
+        "Collect certificate when ready"
+      ],
+      "output": "Government certificate/service output",
+      "user_manual_pdf": "https://www.tnesevai.tn.gov.in/Pages/PPT/UserManual_eSevai_for_all_Registration.pdf",
+      "service_url": "https://www.tnesevai.tn.gov.in",
+      "helpdesk": "18004256000",
+      "qa_pairs": [
+        {
+          "question": "What is eSevai?",
+          "answer": "eSevai (e-Sevai) is Tamil Nadu's digital citizen service platform run by TNeGA (Tamil Nadu e-Governance Agency). It provides 119+ government services — certificates, licences, payments, pensions — through 10,443 Common Service Centres (CSCs) across Tamil Nadu, and also online at tnesevai.tn.gov.in."
+        },
+        {
+          "question": "Where is the nearest eSevai centre?",
+          "answer": "There are 10,443 eSevai centres across Tamil Nadu. Visit https://www.tnesevai.tn.gov.in or call the toll-free helpline 18004256000 to locate the nearest centre."
+        },
+        {
+          "question": "What documents should I always carry to eSevai?",
+          "answer": "Always carry your Aadhaar Card and Ration Card for any eSevai service. For specific certificates, bring the service-specific documents. The operator at the centre will guide you on any additional documents needed."
+        },
+        {
+          "question": "Can I track my eSevai application status?",
+          "answer": "Yes. Visit tnesevai.tn.gov.in and use the 'Track Application' option. Enter your reference number from the acknowledgement receipt to check the status."
+        },
+        {
+          "question": "What is the eSevai helpline number?",
+          "answer": "The toll-free helpline for eSevai is 18004256000. You can also email tnesevaihelpdesk@tn.gov.in for queries."
+        },
+        {
+          "question": "How many services does eSevai offer?",
+          "answer": "eSevai offers 119+ government services including Revenue certificates, electricity services, motor vehicle services, employment registration, pension schemes, and more."
+        },
+        {
+          "question": "Do I need to register to use eSevai centre?",
+          "answer": "No registration is needed to visit an eSevai centre — the operator will help you. For the online citizen portal, you can register at https://www.tnesevai.tn.gov.in/Citizen/Registration.aspx using your mobile number and Aadhaar."
+        }
+      ]
+    }
+  ],
+  "user_manual_download_guide": {
+    "instructions": "Since the portal blocks automated access, please download these PDFs manually by opening the links in your browser (Chrome/Edge/Firefox). Right-click → Save As, or the PDF will auto-download.",
+    "manuals": [
+      {
+        "title": "eSevai Registration User Manual (All Revenue Services — Main Manual)",
+        "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/UserManual_eSevai_for_all_Registration.pdf",
+        "covers": [
+          "Community Certificate",
+          "Income Certificate",
+          "Nativity Certificate",
+          "Legal Heir Certificate",
+          "OBC Certificate",
+          "First Graduate Certificate",
+          "Residence Certificate",
+          "Solvency Certificate",
+          "Inter-Caste Marriage Certificate",
+          "Deserted Women Certificate"
+        ]
+      },
+      {
+        "title": "Employment Registration Printing (Service 502)",
+        "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/User%20Manual_for%20Employment_502%20Printing%20of%20Registration%20ID.pdf",
+        "covers": [
+          "Employment Registration",
+          "Employment ID Printing"
+        ]
+      },
+      {
+        "title": "Old Age Pension (IGNOPS) User Manual",
+        "url": "https://tnesevai.tn.gov.in/PPT/User%20Manual(CSCOperator)_REV-201%20Indira%20Gandhi%20National%20Old%20Age%20Pension%20Scheme%20(IGNOPS).pdf",
+        "covers": [
+          "IGNOPS Old Age Pension",
+          "Widow Pension",
+          "Disability Pension"
+        ]
+      },
+      {
+        "title": "COVID-19 Appropriate Official Document (Collector REV-125)",
+        "url": "https://www.tnesevai.tn.gov.in/Pages/PPT/User_Manual_Collector_REV_125_Appropriate%20Official%20Document%20for%20COVID-19.pdf",
+        "covers": [
+          "COVID-19 Travel Document",
+          "REV-125"
+        ]
+      },
+      {
+        "title": "eSevai User Manual Page (Portal — lists all manuals)",
+        "url": "https://tnesevai.tn.gov.in/Pages/UserManual.aspx",
+        "covers": [
+          "All 119 services — open this page in browser to see full list of downloadable manuals"
+        ]
+      },
+      {
+        "title": "eSevai Citizen Service List",
+        "url": "https://www.tnesevai.tn.gov.in/citizen/UserManual.html",
+        "covers": [
+          "Citizen-facing manual index page"
+        ]
+      }
+    ]
+  }
+}
