@@ -50,7 +50,7 @@ client = chromadb.PersistentClient(
 
 embedding_function = (
     embedding_functions.SentenceTransformerEmbeddingFunction(
-        model_name="all-MiniLM-L6-v2"
+        model_name="mixedbread-ai/mxbai-embed-large-v1"
     )
 )
 
