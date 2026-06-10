@@ -1,71 +1,133 @@
 # Smart Citizen Assistant for Government Services
 
-## Overview
+## 1. Problem Statement
 
-Smart Citizen Assistant for Government Services is an AI-powered platform designed to help citizens easily access information about government services, schemes, certificates, and eligibility requirements.
+Citizens face significant challenges when accessing government services. They struggle to find relevant schemes, understand eligibility criteria, gather required documents, follow application procedures, and navigate scattered information across multiple sources.
 
-The system uses Agentic AI and Retrieval-Augmented Generation (RAG) to provide personalized guidance, document checklists, and procedural assistance for various government services.
+## 2. Solution
 
-## Problem Statement
+The Smart Citizen Assistant solves these problems with an AI-powered guidance system. It uses Retrieval-Augmented Generation (RAG) to answer user questions, provide government service guidance, generate document checklists, assist with eligibility, and explain application procedures.
 
-Citizens often face difficulties in:
+## 3. Tech Stack
 
-* Finding relevant government schemes
-* Understanding eligibility criteria
-* Identifying required documents
-* Navigating application procedures
+- Frontend: React.js, Tailwind CSS
+- Backend: Python, FastAPI
+- Database: MongoDB
+- Agent Framework: LangGraph, LangChain
+- Vector Database: ChromaDB
+- LLM: Groq (OpenAI-Compatible Models)
+- Embeddings: Sentence Transformers
 
-This project aims to simplify access to government services through an intelligent digital assistant.
+## 4. Project Folder Structure
 
-## Features
+backend/
+│
+├── app.py
+├── dataset/
+│   └── tnesevai_dataset.json
+│
+├── rag/
+│   ├── ingest.py
+│   ├── rag_service.py
+│   └── chroma_db/
+│
+├── .env
+├── requirements.txt
 
-* Government service information retrieval
-* Eligibility checking
-* Document checklist generation
-* Procedure and application guidance
-* Conversational AI interface
-* RAG-based knowledge retrieval
+## 5. Dataset Source
 
-## Tech Stack
+The dataset was collected from the Tamil Nadu e-Sevai Portal, government service user manuals, and official government service information. It includes:
 
-### Frontend
-- React.js
-- Tailwind CSS
+- Service names
+- Departments
+- Eligibility criteria
+- Required documents
+- Fees
+- Processing times
+- Application procedures
+- FAQs
 
-### Backend
-- Python
-- FastAPI
+## 6. Steps to Execute the Project
 
-### Database
-- MongoDB / Supabase
+### Step 1: Clone the Repository
 
-### AI & Agent Framework
-- LangGraph
-- LangChain
+```bash
+git clone <repository-url>
+```
 
-### Vector Database
-- ChromaDB
+### Step 2: Create Virtual Environment
 
-### Large Language Model (LLM)
-- Groq API
+Windows:
 
-### Additional Tools
-- Sentence Transformers (Embeddings)
+```bash
+python -m venv venv
+```
 
-## Project Goals
+### Step 3: Activate Virtual Environment
 
-* Improve accessibility to government services
-* Reduce information gaps for citizens
-* Provide personalized service recommendations
-* Simplify application processes
+Windows:
 
-## Future Enhancements
+```bash
+venv\Scripts\activate
+```
 
-* Multilingual support
-* Voice-based interaction
-* Application status tracking
-* Integration with government APIs
+### Step 4: Install Dependencies
 
-## Status
+```bash
+pip install -r requirements.txt
+```
 
-🚧 Under Development 🚧
+### Step 5: Configure Environment Variables
+
+Create a `.env` file and add:
+
+```env
+GROQ_API_KEY=your_groq_api_key
+```
+
+### Step 6: Generate Vector Database
+
+Run:
+
+```bash
+python rag/ingest.py
+```
+
+This converts the dataset into embeddings and stores them in ChromaDB.
+
+### Step 7: Run the FastAPI Application
+
+Run:
+
+```bash
+uvicorn app:app --reload
+```
+
+The API server will start locally.
+
+## 7. API Testing
+
+Test the application using the FastAPI Swagger UI at:
+
+[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+
+You can send questions such as:
+
+- What documents are required for Income Certificate?
+- How do I apply for Community Certificate?
+- What is the processing time for Nativity Certificate?
+
+## 8. Future Enhancements
+
+- Multi-Agent Architecture
+- Multilingual Support (Tamil and English)
+- Voice-Based Interaction
+- Real-Time Government API Integration
+- Application Status Tracking
+- Personalized Scheme Recommendations
+- Mobile Application Support
+- Advanced Eligibility Verification
+
+## Project Status
+
+**🚧 Under Development – Final Year Project**
