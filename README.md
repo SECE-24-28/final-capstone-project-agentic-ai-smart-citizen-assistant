@@ -20,19 +20,18 @@ The Smart Citizen Assistant solves these problems with an AI-powered guidance sy
 
 ## 4. Project Folder Structure
 
+```text
 backend/
-│
 ├── app.py
 ├── dataset/
 │   └── tnesevai_dataset.json
-│
 ├── rag/
 │   ├── ingest.py
 │   ├── rag_service.py
 │   └── chroma_db/
-│
 ├── .env
-├── requirements.txt
+└── requirements.txt
+```
 
 ## 5. Dataset Source
 
@@ -52,7 +51,7 @@ The dataset was collected from the Tamil Nadu e-Sevai Portal, government service
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/SECE-24-28/final-capstone-project-agentic-ai-smart-citizen-assistant.git
 ```
 
 ### Step 2: Create Virtual Environment
@@ -130,4 +129,4 @@ You can send questions such as:
 
 ## Project Status
 
-**🚧 Under Development – Final Year Project**
+**🚧 Under Development**
