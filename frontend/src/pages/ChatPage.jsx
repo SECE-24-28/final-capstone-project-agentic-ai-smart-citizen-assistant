@@ -35,8 +35,8 @@ export default function ChatPage() {
   }, [pendingQuestion])
 
   return (
-    <div className="flex flex-col">
-      <div className="flex items-center justify-between border-b border-slate-200 bg-white px-4 py-3 sm:px-6">
+    <div className="flex h-full flex-col overflow-hidden">
+      <div className="flex shrink-0 items-center justify-between border-b border-slate-200 bg-white px-4 py-3 sm:px-6">
         <div className="flex items-center gap-3">
           <Link
             to="/"

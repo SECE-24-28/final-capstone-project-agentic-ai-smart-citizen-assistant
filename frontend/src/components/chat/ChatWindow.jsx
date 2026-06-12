@@ -29,7 +29,7 @@ export default function ChatWindow({
   const showWelcome = messages.length === 0
 
   return (
-    <div className="flex h-[calc(100vh-4rem)] flex-col bg-slate-50 lg:h-[calc(100vh-5rem)]">
+    <div className="flex flex-1 flex-col overflow-hidden bg-slate-50">
       <div className="sr-only" ref={liveRegionRef} aria-live="polite" aria-atomic="true" />
 
       <div className="flex flex-1 overflow-hidden">

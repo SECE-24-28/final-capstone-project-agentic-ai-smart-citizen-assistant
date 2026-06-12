@@ -1,15 +1,22 @@
-import { Outlet } from 'react-router'
+import { Outlet, useLocation } from 'react-router'
 import Header from './Header'
 import Footer from './Footer'
 
 export default function AppShell() {
+  const location = useLocation()
+  const isChatPage = location.pathname === '/chat'
+
   return (
-    <div className="flex min-h-screen flex-col">
+    <div
+      className={`flex flex-col ${
+        isChatPage ? 'h-[100dvh] overflow-hidden' : 'min-h-[100dvh]'
+      }`}
+    >
       <Header />
-      <main className="flex-1">
+      <main className={`flex-1 ${isChatPage ? 'flex flex-col overflow-hidden' : ''}`}>
         <Outlet />
       </main>
-      <Footer />
+      {!isChatPage && <Footer />}
     </div>
   )
 }
